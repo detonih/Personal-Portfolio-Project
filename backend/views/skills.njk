@@ -1,0 +1,156 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>Skills - Henrique Detoni</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <h1>Skills</h1>
+  </div>
+
+  <section class="all_the_cards">
+    <div class="card" id="/skills/js">
+      <div class="card_image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="JS">
+      </div>
+      <div class="card_content">
+        <p>Reasonable knowledge about JavaScript Fundamentals</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Data Types</p>
+          <p>Loops</p>
+          <p>Conditionals</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Intermediate</p>
+        </div>   
+      </div>
+    </div>
+
+    <div class="card" id="/skills/node">
+      <div class="card_image-container">
+        <img src="https://miro.medium.com/max/2560/1*mp91A9RzagntGGjBnwu4Yw.png" alt="nodejs">
+      </div>
+      <div class="card_content">
+        <p>Soft knowledge about Node.js Fundamentals</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Event Loop</p>
+          <p>Task queue</p>
+          <p>Stack</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Basic</p>
+        </div>   
+      </div>
+    </div>
+
+    <div class="card" id="/skills/react">
+      <div class="card_image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="reactjs">
+      </div>
+      <div class="card_content">
+        <p> A little knowledge about React Fundamentals</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Components</p>
+          <p>States</p>
+          <p>Hooks</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Beginner</p>
+        </div>   
+      </div>
+    </div>
+
+    <div class="card" id="/skills/express">
+      <div class="card_image-container">
+        <img src="https://cdn.glitch.com/project-avatar/fa1f1a9a-054c-42b2-93ab-83ec4f40695d.png?2017-09-13T18:38:00.967Z" alt="Expressjs">
+      </div>
+      <div class="card_content">
+        <p>Reasonable knowledge about Express</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Router</p>
+          <p>Server</p>
+          <p>Middlewares</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Intermediate</p>
+        </div>   
+      </div>
+    </div>
+
+    <div class="card" id="/skills/html">
+      <div class="card_image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html">
+      </div>
+      <div class="card_content">
+        <p>Reasonable knowledge about HTML</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Tags</p>
+          <p>Classes</p>
+          <p>Containeres</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Intermediate</p>
+        </div>   
+      </div>
+    </div>
+
+    <div class="card" id="/skills/css">
+      <div class="card_image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css">
+      </div>
+      <div class="card_content">
+        <p>Beginner knowledge about CSS Fundamentals</p> 
+      </div>
+      <div class="card_info">
+        <div class="skill_info">
+          <h3>Knowledge</h3>
+          <p>Flex Box</p>
+          <p>Grid</p>
+          <p>Typography</p>
+        </div>
+        <div class="level_info">
+          <h3>Level</h3>
+          <p>Beginner</p>
+        </div>   
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <a class="close-modal">
+        <i class="material-icons">close</i>
+      </a>
+      <div class="modal-content">
+        <iframe src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+{% endblock %}
+
