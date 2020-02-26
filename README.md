@@ -22,6 +22,12 @@ cd portfolio
 git clone https://github.com/detonih/Personal-Portfolio-Project.git
 ```
 
+### Enter the backend directory
+
+```
+cd backend/
+```
+
 ### Install dependencies
 
 ```
@@ -33,3 +39,7 @@ npm i
 ```
 npm start
 ```
+
+### Acess the main route
+
+[http://localhost:5000/](http://localhost:5000/)
