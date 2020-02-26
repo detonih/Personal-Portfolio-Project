@@ -1,4 +1,4 @@
-#Portfolio Project
+# Portfolio Project
 
 This is a project performed just to trainning my skills with HTML and CSS. I tryed to create a personal portifolio site. This is not the main portfolio, just a direction to practice my skills.
 
